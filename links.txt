@@ -1,0 +1,6 @@
+http://msp.ucsd.edu/software.html
+https://puredata.info
+https://github.com/jonwwilkes/purr-data/releases
+http://www.martin-brinkmann.de/pd-patches.html
+https://www.youtube.com/watch?v=0xr4aL1C24E
+https://enzienaudio.com

@@ -4,3 +4,5 @@ https://github.com/jonwwilkes/purr-data/releases
 http://www.martin-brinkmann.de/pd-patches.html
 https://www.youtube.com/watch?v=0xr4aL1C24E
 https://enzienaudio.com
+http://www.wolframscience.com/nks/
+http://melodrive.com/blog/how-to-use-pure-data-in-unity/

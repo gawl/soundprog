@@ -1,0 +1,14 @@
+#N canvas 878 110 265 215 10;
+#X obj 49 88 readsf~;
+#X obj 49 120 dac~;
+#X obj 95 112 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -258113
+-1;
+#X msg 49 33 open recording.wav;
+#X msg 60 56 start;
+#X msg 113 56 stop;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 0 1 2 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 0;
+#X connect 5 0 0 0;

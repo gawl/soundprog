@@ -1,0 +1,12 @@
+#N canvas 827 273 450 300 10;
+#X obj 89 42 r fromGUI;
+#X obj 89 64 list trim;
+#X obj 89 86 route /slider;
+#X msg 89 116 send slider \$1;
+#X obj 89 143 netsend -u 54321;
+#X floatatom 29 108 5 0 0 0 - - -, f 5;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 2 0 5 0;
+#X connect 3 0 4 0;

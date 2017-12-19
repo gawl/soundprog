@@ -1,0 +1,18 @@
+#N canvas 1056 87 450 300 10;
+#X obj 166 132 print my-message;
+#X msg 234 24 listen 0;
+#X msg 136 25 listen 57120;
+#X obj 166 66 netreceive -u -b;
+#X obj 166 99 oscparse;
+#X obj 121 186 list trim;
+#X obj 121 208 route Fader1;
+#X obj 121 230 route x;
+#X floatatom 121 252 10 0 0 0 - - -, f 10;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;

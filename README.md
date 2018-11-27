@@ -6,4 +6,4 @@ link do programu pd:
 http://msp.ucsd.edu/software.html
 
 wersja purr-data:
-https://github.com/jonwwilkes/purr-data/releases/tag/2.4.0
+https://github.com/agraef/purr-data/releases
